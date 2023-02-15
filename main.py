@@ -12,3 +12,11 @@ def product_array(arr):
         return sum
 
 
+def main():
+    input_str = input("enter list of numbers: ")
+    num_list = [int(num) for num in input_str.split()]
+    print(num_list)
+    total1 = sum_array(num_list)
+    print(sum_array(num_list))
+    print(product_array(num_list))
+main()
