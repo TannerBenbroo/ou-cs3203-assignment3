@@ -22,7 +22,6 @@ def reverse_array(arr):
 def main():
     input_str = input("enter list of numbers: ")
     num_list = [int(num) for num in input_str.split()]
-    total1 = sum_array(num_list)
     print(sum_array(num_list))
     print(product_array(num_list))
     print(reverse_array(num_list))
