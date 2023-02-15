@@ -9,7 +9,7 @@ def product_array(arr):
     sum = 1
     for i in range(len(arr)):
         sum *= arr[i]
-        return sum
+    return sum
 
 
 def main():
